@@ -1,3 +1,17 @@
+# Student Performance Prediction - 1D7F06
+
+## Group Members
+Team: 1D7F06
+
+## How to Run
+1. pip install -r requirements.txt
+2. streamlit run app.py
+
+
+
+
+
+
 # Student Performance Predictor
 
 An AI-powered Streamlit dashboard that predicts a student's **final grade (%)**
