@@ -145,3 +145,4 @@ def build_feature_importance_bar(feature_importances: dict):
         paper_bgcolor="rgba(0,0,0,0)",
     )
     return fig
+
