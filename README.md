@@ -143,21 +143,3 @@ StudentPerformancePredictor/
 └── screenshots/           # Adding Our Project UI screenshots 
 ```
 
-## 8. Evaluation Approach
-
-The app trains both a Random Forest Regressor and a Linear Regression model
-on the same train/test split and displays R², MAE, MSE, and RMSE for the
-primary model, with a side-by-side comparison chart against the baseline on
-the **Compare Models** page — satisfying the "compare at least two
-approaches" requirement.
-
-## 9. Limitations & Future Improvements
-
-- Dataset is synthetic; real-world student data would improve validity
-- No cross-validation (single train/test split)
-- No option for the user to bring their own dataset — model always trains
-  on the bundled sample data
-- Could add SHAP values for more precise per-prediction feature attribution
-- Could add authentication/persistence so prediction history survives
-  across sessions instead of resetting on refresh
-
